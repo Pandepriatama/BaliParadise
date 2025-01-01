@@ -2,7 +2,7 @@
 const About = ({ aboutRef }) => {
   return (
     <section ref={aboutRef} className="px-20">
-      <h1 className="text-2xl text-center py-4">About Us 😊</h1>
+      <h1 className="text-2xl text-center py-4">About Us</h1>
       <div className="text-justify">
         Selamat datang di Bali Paradise, panduan bagi para wisatawan yang ingin
         mengeksplorasi keindahan dan kekayaan budaya tempat suci di Bali. Kami

@@ -61,7 +61,7 @@ const Panduan = () => {
               <span className="font-bold capitalize">{v.nama}</span>
               <span>{v.lokasi}</span>
               <button
-                onClick={() => navigate(`/panduan/${v.id}`)}
+                onClick={() => navigate(`/pura/${v.id}`)}
                 className="rounded-md  bg-[#FFD400] px-2 py-0.5 font-semibold mt-2"
               >
                 Selengkapnya

@@ -13,7 +13,7 @@ const Panduan = ({ puraRef }) => {
         Panduan Mengunjungi Pura di Bali
       </h1>
       <div className="grid grid-cols-3 gap-4 ">
-        {data.map((v, _) => (
+      {data.slice(0,3).map((v, _) => (
           <div
             key={v.id}
             className="flex flex-col items-center justify-center "

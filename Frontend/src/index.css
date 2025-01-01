@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply lg:mx-[80px] xl:mx-[250px];
+}
+
+@layer components {
+  .logo {
+    font-family: "Kaushan Script", cursive;
+  }
+}

@@ -47,7 +47,7 @@ const Pura = () => {
   return (
     <div className="">
       <header
-        className={`flex justify-between items-center fixed right-[250px] left-[250px] top-0 p-4 transition-colors duration-300 ease-in-out ${
+        className={`flex justify-between items-center fixed inset-x-0 top-0 p-4 transition-colors duration-300 ease-in-out ${
           isScrolled ? "bg-black/50" : "bg-transparent"
         }  `}
       >

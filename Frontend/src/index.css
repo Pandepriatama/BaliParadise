@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply lg:mx-[80px] xl:mx-[250px];
+  /* @apply mx-0 lg:mx-[10px] xl:mx-[150px] 2xl:mx-[250px]; */
 }
 
 @layer components {

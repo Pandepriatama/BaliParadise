@@ -12,7 +12,7 @@ const Panduan = ({ puraRef }) => {
       <h1 className="text-2xl text-center mb-6">
         Panduan Mengunjungi Pura di Bali
       </h1>
-      <div className="grid grid-cols-3 gap-4 ">
+      <div className="grid md:grid-cols-3 gap-4 ">
       {data.slice(0,3).map((v, _) => (
           <div
             key={v.id}

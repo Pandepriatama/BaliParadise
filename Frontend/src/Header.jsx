@@ -33,12 +33,12 @@ const Header = ({ puraRef, homeRef, aboutRef }) => {
     >
       <div className="absolute inset-0 bg-black/40"></div>
       <header
-        className={`flex justify-between fixed right-[250px] left-[250px] top-0 p-4 transition-colors duration-300 ease-in-out ${
+        className={`flex justify-between fixed inset-x-0 top-0 p-4 transition-colors duration-300 ease-in-out ${
           isScrolled ? "bg-black/50" : "bg-transparent"
         }  `}
       >
         <Logo />
-        <nav className="flex gap-20 text-[#FFD400] font-semibold items-center px-8">
+        <nav className="flex gap-4 md:gap-10 lg:gap-20 text-[#FFD400] font-semibold items-center px-8">
           <div className="cursor-pointer" onClick={() => scrollToHome()}>
             Home
           </div>

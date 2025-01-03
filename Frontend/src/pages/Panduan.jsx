@@ -25,7 +25,7 @@ const Panduan = () => {
   return (
     <div>
       <header
-        className={`flex justify-between items-center fixed right-[250px] left-[250px] top-0 p-4 transition-colors duration-300 ease-in-out ${
+        className={`flex justify-between items-center fixed inset-x-0  top-0 p-4 transition-colors duration-300 ease-in-out ${
           isScrolled ? "bg-black/50" : "bg-transparent"
         }  `}
       >
@@ -43,7 +43,7 @@ const Panduan = () => {
         <h1 className="font-bold text-xl my-8 text-center">
           Panduan Mengunjungi Pura di Bali
         </h1>
-        <div className="grid grid-cols-3 grid-rows-3 gap-4 ">
+        <div className="grid  md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3 gap-4 ">
           {data.map((v, _) => (
             <div
               key={v.id}

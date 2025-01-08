@@ -6,9 +6,9 @@ const Header = ({ puraRef, homeRef, aboutRef }) => {
   const scrollToPanduan = () =>
     puraRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
   const scrollToAbout = () =>
-    homeRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  const scrollToHome = () =>
     aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  const scrollToHome = () =>
+    homeRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
 
   const [isScrolled, setIsScrolled] = useState(false);
 
